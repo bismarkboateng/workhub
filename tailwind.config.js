@@ -9,7 +9,19 @@ module.exports = {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'primary-color': '#285fe2',
+        'body-background': 'rgb(246,248,255)'
+      },
+      fontFamily: {
+        'Outfit': ['Outfit', 'sans-serif']
+      },
+      colors: {
+        'text-color': '#242839',
+        'text-color-2': '#f6f8ff'
+      }
+    },
   },
   plugins: [],
 }
