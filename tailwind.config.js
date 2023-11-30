@@ -19,7 +19,11 @@ module.exports = {
       },
       colors: {
         'text-color': '#242839',
-        'text-color-2': '#f6f8ff'
+        'text-color-2': '#f6f8ff',
+        'text-color-3': '#285fe2',
+      },
+      boxShadow: {
+        'card': '0 20px 60px rgba(36, 40, 57, .1)'
       }
     },
   },

@@ -12,8 +12,8 @@ export default function index() {
   const onCloseClickHandler = () => setOnMobile(prevOnMobile => !prevOnMobile)
 
   return (
-   <nav className="bg-white">
-      <section className="w-[89%] md:w-[95%] 2xl:w-[60%] mx-auto flex flex-row items-center
+   <nav>
+      <section className="w-[89%] md:w-[95%] 2xl:w-[64%] mx-auto flex flex-row items-center
         justify-between py-4">
         <Link href="/">
           <img
