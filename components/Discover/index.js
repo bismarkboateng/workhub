@@ -15,14 +15,14 @@ export default function index() {
       discover-sm-1 discover-sm-2 discover-sm-4 md:mt-[45%] lg:mt-[15%]
       xl:mt-[11%] 2xl:mt-[5%] discover-sm-5">
 
-        <div className="md:w-[95%] 2xl:w-[97%] 2xl:ml-0 md:ml-[2.3%] md:flex md:flex-row md:justify-between
+        <div className="md:w-[95%] 2xl:w-[99%] 2xl:ml-0 md:ml-[2.3%] md:flex md:flex-row md:justify-between
           md:items-center">
             <h1 className="w-[90%] text-[31px] text-text-color font-Outfit font-semibold
               leading-[40.3px]">
               Discover Our Array of Services
             </h1>
             <Button className="hidden md:block cursor-pointer font-Outfit text-lg
-                text-text-color-2 rounded w-[20%] py-[10px]">
+                text-text-color-2 rounded w-[20%] 2xl:w-[15%] py-[10px]">
                 View Services
             </Button>
         </div>
