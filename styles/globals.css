@@ -3,3 +3,44 @@
 @tailwind utilities;
 
 @import 'aos/dist/aos.css';
+
+
+@media screen and (min-width: 280px) {
+    .discover-sm {
+        margin-top: 200%;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .discover-sm-1 {
+        margin-top: 135%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .discover-sm-m {
+        margin-top: 132%;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    .discover-sm-2 {
+        margin-top: 110%;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .discover-sm-4 {
+        margin-top: 118%;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .discover-sm-5 {
+        margin-top: 80%;
+    }
+
+    .hide-btn {
+        display: none;
+    }
+}

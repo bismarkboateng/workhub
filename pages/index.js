@@ -1,4 +1,8 @@
-import { Navbar, Footer, Herosection  } from "../components"
+import { 
+  Navbar, Footer, Herosection,
+  Discover, Locations, Scalable,
+  Workspaces,
+} from "../components"
 
 
 export default function index() {
@@ -6,6 +10,10 @@ export default function index() {
    <section className="bg-body-background">
     <Navbar />
     <Herosection />
+    <Discover />
+    <Locations />
+    <Scalable />
+    <Workspaces />
    </section>
   )
 }
