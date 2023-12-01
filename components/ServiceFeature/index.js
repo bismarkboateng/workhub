@@ -7,7 +7,7 @@ export default function index(props){
     return (
         <>
             <div className="md:p-5 lg:w-1/3 md:w-1/2 w-full">
-                <div onMouseLeave={handleLeave} onMouseOver={handleMouse} className="group border flex flex-col p-5 rounded gap-y-5 cursor-pointer hover:-translate-y-1 transition-all duration-100 ease-in">
+                <div className="group border flex flex-col p-5 rounded gap-y-5 cursor-pointer hover:-translate-y-1 transition-all duration-100 ease-in">
                     <div className="flex flex-col gap-y-3">
                         <div className="flex flex-row justify-between">
                             <Image alt="" src={props.image}></Image>
