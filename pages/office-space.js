@@ -1,4 +1,4 @@
-import { AboutOffice, Navbar, Officecard } from "../components"
+import { AboutOffice, MoreServices, Navbar, Officecard } from "../components"
 
 
 const officespace = () => {
@@ -8,6 +8,7 @@ const officespace = () => {
         <section className="pl-5">
           <Officecard />
           <AboutOffice />
+          <MoreServices />
         </section>      
     </div>
   )
