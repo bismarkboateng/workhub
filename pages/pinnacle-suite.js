@@ -5,8 +5,15 @@ const pinnaclesuite = () => {
         <div className="font-Outfit">
           <Navbar />
             <section className="px-5 mt-10">
-             <PinnacleSuitesHead />
-             <AboutPinnacle />
+              <div className="">
+                <div className="">
+                  <PinnacleSuitesHead />
+                  <AboutPinnacle />
+                </div>
+                <div className="">
+                  
+                </div>
+              </div>
             </section>      
         </div>
       )

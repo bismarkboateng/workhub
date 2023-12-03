@@ -73,6 +73,11 @@ export default function index() {
                   <p>Weekdays - 07:00 - 22:00 </p>
                   <p>Weekends - 09:00 - 19:00 </p>
               </div>
+              <div className="mt-5">
+                <img className="rounded-md"
+                   src="https://assets-global.website-files.com/64ed7cce29f3b2cfe859f6fd/65014dcea9a4e2bd02b6386e_Map-p-1080.jpg"
+                   alt="" />
+              </div>
             </div>
             </div>
         </section>      
