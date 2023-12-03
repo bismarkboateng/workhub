@@ -1,4 +1,4 @@
-import { AboutPinnacle, Navbar, PinnacleSuitesHead } from "../components"
+import { AboutPinnacle, MoreLocations, Navbar, PinnacleSuitesHead } from "../components"
 
 const pinnaclesuite = () => {
   return (
@@ -36,6 +36,7 @@ const pinnaclesuite = () => {
                     </form>
                 </div>
               </div>
+              <MoreLocations />
             </section>      
         </div>
       )
