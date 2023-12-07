@@ -40,7 +40,6 @@ export default function index() {
               <Discovercard item={item} />
             </SwiperSlide>
           ))}
-
         </Swiper>
 
         <Button

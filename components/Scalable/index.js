@@ -33,7 +33,7 @@ export default function index() {
                 </p>
             </div>
             <p className="text-base md:text-lg font-Outfit text-text-color-3 font-semibold
-             leading-5 mt-7 2xl:mt-12">
+             leading-5 mt-7 2xl:mt-12 cursor-pointer">
                 Request a Quote
             </p>
         </section>

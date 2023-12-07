@@ -11,3 +11,6 @@ export { default as Discovercard } from "./Discovercard"
 export { default as Locations } from "./Locations"
 export { default as Scalable } from "./Scalable"
 export { default as Workspaces } from "./Workspaces"
+
+export { default as Members } from "./Members"
+export { default as MemberCard } from "./MemberCard"
