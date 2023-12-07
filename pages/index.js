@@ -1,7 +1,7 @@
 import { 
   Navbar, Footer, Herosection,
   Discover, Locations, Scalable,
-  Workspaces, Members
+  Workspaces, Members, Companies
 } from "../components"
 
 
@@ -15,6 +15,7 @@ export default function index() {
     <Scalable />
     <Workspaces />
     <Members />
+    <Companies />
    </section>
   )
 }
