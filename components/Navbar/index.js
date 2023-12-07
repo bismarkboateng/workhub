@@ -12,7 +12,7 @@ export default function index() {
   const onCloseClickHandler = () => setOnMobile(prevOnMobile => !prevOnMobile)
 
   return (
-   <nav>
+   <nav className="w-[100%]">
       <section className="w-[89%] md:w-[95%] 2xl:w-[64%] mx-auto flex flex-row items-center
         justify-between py-4">
         <Link href="/">
@@ -58,7 +58,6 @@ export default function index() {
           />
         </div>
       )}
-
    </nav>
   )
 }

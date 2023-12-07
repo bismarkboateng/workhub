@@ -14,3 +14,5 @@ export { default as Workspaces } from "./Workspaces"
 
 export { default as Members } from "./Members"
 export { default as MemberCard } from "./MemberCard"
+export { default as Companies } from "./Companies"
+export { default as Transform } from "./Transform"

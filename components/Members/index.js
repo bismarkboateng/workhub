@@ -9,7 +9,7 @@ import { members } from "./members-data"
 
 export default function index() {
   return (
-    <section className="w-[100%] mt-20 bg-[#242839] py-[78px] px-0">
+    <section className="w-[100%] mt-20 bg-[#242839] py-[78px] md:py-[126px] lg:py-[150px] px-0">
      <div className="flex flex-row justify-center items-center">
         <h2 className="w-[89%] text-[31px] md:text-[35px] lg:text-[39px]
         font-Outfit text-text-color-2 font-semibold leading-10 text-center mb-10">
