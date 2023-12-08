@@ -3,15 +3,15 @@ import { Post, Button } from ".."
 import { posts } from "./post-data"
 
 export default function index() {
-    const post = {
-        location: "Workplace",
-        date: "October 9, 2023",
-        title: "Creating Distraction-Free Workspace",
-        content: `Cras pulvinar facilisis sodales. 
-            In hac habitasse platea dictumst. 
-            Suspendisse mauris lacus, dapibus ut.
-        `,
-    }
+  const post = {
+      location: "Workplace",
+      date: "October 9, 2023",
+      title: "Creating Distraction-Free Workspace",
+      content: `Cras pulvinar facilisis sodales. 
+          In hac habitasse platea dictumst. 
+          Suspendisse mauris lacus, dapibus ut.
+      `,
+  }
   return (
     <section className="w-[90%] md:w-[95%] 2xl:w-[64%] mx-auto mt-14">
         <div className="flex flex-col md:flex-row
@@ -23,7 +23,7 @@ export default function index() {
             <Button
             className="hidden md:block mt-8 font-Outfit bg-white text-[#53587a]
             border border-[#53587C] text-lg py-[18px] px-[20px] outline-none text-center
-            mb-4 cursor-pointer rounded"
+            mb-4 cursor-pointer rounded bg-[#f6f8ff]"
             >
             View All Posts
             </Button>
@@ -50,7 +50,7 @@ export default function index() {
       <Button
         className="mt-8 w-[100%] font-Outfit bg-white text-[#53587a]
         border border-[#53587C] text-base py-[18px] outline-none text-center
-        mb-4 cursor-pointer rounded md:hidden"
+        mb-4 cursor-pointer rounded bg-[#f6f8ff] md:hidden"
       >
         View All Posts
       </Button>

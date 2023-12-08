@@ -1,8 +1,8 @@
 import { 
-  Navbar, Footer, Herosection,
+  Navbar, Herosection,
   Discover, Locations, Scalable,
   Workspaces, Members, Companies,
-  Transform, Posts
+  Transform, Posts, Footer
 } from "../components"
 
 
@@ -19,6 +19,7 @@ export default function index() {
     <Companies />
     <Transform />
     <Posts />
+    <Footer />
    </section>
   )
 }
