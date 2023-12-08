@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
   }, [])
 
   return (
-    <section className="w-[100%]">
+    <section className="w-[100%] bg-body-background">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />

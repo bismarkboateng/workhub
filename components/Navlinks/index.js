@@ -8,7 +8,7 @@ export default function index(props) {
     text-text-color leading-[23.4px] cursor-pointer`
 
   return (
-    <section className={props.onDesktopNavWrapper || props.mobileNavWrapper}>
+    <section className={`${props.onDesktopNavWrapper || props.mobileNavWrapper} bg-body-background`}>
         <ul className={props.onDesktopUlWrapper || props.mobileUlWrapper}>
             <li className={linkStyles}>
                 <Link href="/">

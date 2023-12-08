@@ -12,7 +12,7 @@ export default function index() {
   const onCloseClickHandler = () => setOnMobile(prevOnMobile => !prevOnMobile)
 
   return (
-   <nav className="w-[100%]">
+   <nav className="sticky top-0 left-0 w-[100%] z-[100] bg-body-background">
       <section className="w-[89%] md:w-[95%] 2xl:w-[64%] mx-auto flex flex-row items-center
         justify-between py-4">
         <Link href="/">
@@ -48,13 +48,14 @@ export default function index() {
 
       {onMobile && (
         <div
-          className="bg-white lg:hidden"
+          className="absolute top-[80%] left-0 z-[100] w-full bg-white lg:hidden
+          bg-body-background pb-8"
           data-aos="fade-down"
         >
           <Navlinks
-            mobileNavWrapper="w-[100%] flex flex-col gap-6 mt-10"
+            mobileNavWrapper="w-[100%] flex flex-col gap-6 pt-10"
             mobileUlWrapper="flex flex-col gap-8 w-[89%] mx-auto"
-            buttonStyle="w-[89%] mx-auto"
+            buttonStyle="w-[89%] md:w-[17%] mx-auto md:mx-0 md:ml-[5.3%]"
           />
         </div>
       )}
