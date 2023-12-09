@@ -1,15 +1,16 @@
-import { AboutOffice, MoreServices, Navbar, Officecard } from "../components"
+import { AboutOffice, MoreServices, Navbar, Officecard, Footer } from "../components"
 
 
 const officespace = () => {
   return (
-    <div>
+    <div className="bg-body-background">
       <Navbar />
-        <section className="pl-5">
+        <section className="w-[90%] md:w-[95%] 2xl:w-[64%] mx-auto">
           <Officecard />
           <AboutOffice />
           <MoreServices />
-        </section>      
+        </section>   
+      <Footer />   
     </div>
   )
 }
