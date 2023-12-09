@@ -2,7 +2,7 @@
 
 
 export default function index() {
-  const imageStyles = "w-[150px] md:w-[180px] lg:w-[200px]"
+  const imageStyles = `w-[150px] md:w-[180px] lg:w-[200px]`
   return (
     <section className="w-full mt-20 bg-body-background">
       <section className="w-[90%] mx-auto">
@@ -16,7 +16,7 @@ export default function index() {
 
           <p className="w-[100%] md:w-[80%] lg:w-[60%] xl:w-[50%] 2xl:w-[35%] 
            mx-auto mt-4 font-Outfit text-base md:text-lg leading-6 text-[#53587a] text-center">
-            No big deal for me, it's the most important part of life, the fear of basketball.
+            No big deal for me, its the most important part of life, the fear of basketball.
           </p>
         </div>
 

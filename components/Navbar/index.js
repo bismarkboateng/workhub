@@ -6,7 +6,7 @@ import { TfiClose } from "react-icons/tfi"
 import { Navlinks } from ".."
 
 
-export default function index() {
+export default function Index() {
   const [onMobile, setOnMobile] = useState(false)
   
   const onCloseClickHandler = () => setOnMobile(prevOnMobile => !prevOnMobile)

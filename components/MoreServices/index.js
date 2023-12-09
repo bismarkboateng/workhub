@@ -36,7 +36,7 @@ export default function index() {
         </div>
         <div className="flex flex-col md:flex-row gap-5 mt-5">
             {moreServices.map((item) => (
-                <Discovercard item={item} />
+                <Discovercard key={item.id} item={item} />
             ))}
         </div>
         <button className="mt-5 w-full text-center border border-[#53587A] rounded font-medium text-[#53578A] py-5 sm:hidden">

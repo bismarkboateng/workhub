@@ -8,7 +8,7 @@ const initialState = {
   metropolitan: false,
 }
 
-export default function index() {
+export default function Index() {
   const [isClicked, setIsClicked] = useState(initialState)
 
   const handleClick = (clicked) => {
