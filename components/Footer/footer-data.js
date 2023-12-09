@@ -21,7 +21,7 @@ export const pagesLinks = [
     },
     {
         name: "Service Single CMS",
-        link: "",
+        link: "/office-space",
         id: Math.random(),
     },
     {
@@ -36,7 +36,7 @@ export const pagesLinks = [
     },
     {
         name: "Blog",
-        link: "",
+        link: "/blog",
         id: Math.random(),
     },
     {

@@ -31,7 +31,9 @@ export default function index(props) {
                 </Link>
             </li>
             <li className={linkStyles}>
-                <span>Pages</span>
+                <Link href="/blog">
+                    <span>Blog</span>
+                </Link>
             </li>
         </ul>
         <Button

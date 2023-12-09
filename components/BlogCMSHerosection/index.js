@@ -4,9 +4,9 @@ import { Cat } from "../../public/images";
 export default function index(){
     return (
         <>
-            <section className="flex flex-row relative lg:p-20 p-5">
-                <div className="bg-[#e6e8f5] lg:h-full lg:w-1/2 w-full absolute top-0 right-0 z-0 h-[80%]"></div>
-                <div className="flex lg:flex-row flex-col gap-x-10 gap-y-5 w-full z-10 lg:p-10">
+            <section className="flex flex-row relative w-[90%] md:w-[95%] 2xl:w-[64%] mx-auto mt-10">
+                <div className="bg-[#e6e8f5] p-2 lg:h-full lg:w-1/2 w-full absolute top-0 right-0 z-0 h-[80%]"></div>
+                <div className="flex lg:flex-row flex-col gap-x-10 gap-y-5 w-full z-10">
                     <div className="flex lg:w-3/5 order-2">
                         <Image className="rounded" src={Cat} alt=""></Image>
                     </div>

@@ -11,7 +11,10 @@ export default function BlogCMS(props){
             <main className="bg-body-background">
                 <Navbar />
                 <BlogCMSHeroSection />
-                <section className="flex lg:p-20 p-5 justify-center" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
+                <section className="flex w-[90%] md:w-[95%] 2xl:w-[64%] mx-auto mt-14" 
+                    data-aos="zoom-in" data-aos-offset="200" 
+                    data-aos-duration="1000"
+                >
                     <div className="flex flex-col gap-y-10 lg:w-2/3 w-full">
                         <div className="flex flex-col gap-y-5">
                             <h3 className="lg:text-4xl text-3xl font-bold font-Outfit text-[#242839]">
@@ -52,7 +55,7 @@ export default function BlogCMS(props){
                         </div>
                     </div>
                 </section>
-                <section className="flex lg:p-20 p-5 justify-center" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
+                <section className="flex w-[90%] md:w-[95%] 2xl:w-[64%] mx-auto mt-14 justify-center" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
                     <div className="w-full bg-[#242839] flex justify-center rounded-md lg:p-20 p-5">
                         <div className="flex flex-col lg:w-1/2 w-full gap-y-5">
                             <h2 className="lg:text-4xl text-3xl font-bold font-Outfit text-[#f6f8ff] text-center">
@@ -72,7 +75,7 @@ export default function BlogCMS(props){
                         </div>
                     </div>
                 </section>
-                <section className="flex lg:p-20 p-5" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
+                <section className="flex w-[90%] md:w-[95%] 2xl:w-[64%] mx-auto mt-14 " data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
                     <div className="flex flex-col w-full gap-y-10 relative">
                         <div className="flex w-full flex-row justify-between">
                             <h3 className="text-3xl md:w-full lg:text-4xl font-bold font-Outfit text-[#242839]">
