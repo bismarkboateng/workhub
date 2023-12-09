@@ -1,38 +1,47 @@
 export const pagesLinks = [
     {
         name: "Home",
+        link: "/",
         id: Math.random(),
     },
     {
         name: "About",
+        link: "/about",
         id: Math.random(),
     },
     {
         name: "Contact",
+        link: "",
         id: Math.random(),
     },
     {
         name: "Services",
+        link: "/services",
         id: Math.random(),
     },
     {
         name: "Service Single CMS",
+        link: "",
         id: Math.random(),
     },
     {
         name: "Location",
+        link: "/locations",
         id: Math.random(),
     },
     {
         name: "Location Single CMS",
+        link: "/pinnacle-suite",
         id: Math.random(),
     },
     {
         name: "Blog",
+        link: "",
         id: Math.random(),
     },
     {
         name: "Blog Post CMS",
+        link: "/blogcms",
         id: Math.random(),
     },
 ]

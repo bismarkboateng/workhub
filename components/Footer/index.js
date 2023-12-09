@@ -1,5 +1,8 @@
+import Link from "next/link"
+
 import { Newsletter } from ".."
 import { pagesLinks, utilityLinks } from "./footer-data"
+
 
 export default function index() {
   return (
@@ -15,9 +18,12 @@ export default function index() {
               </div>
               <ul className="mt-3">
                 {pagesLinks.map(link => (
+                
                 <li key={link.id} className="text-text-color font-Outfit text-base md:text-lg
                 leading-[20.8px] mt-3 cursor-pointer">
-                  {link.name}
+                  <Link href={link.link}>
+                    {link.name}
+                  </Link>
                 </li>))}
               </ul>
             </div>
