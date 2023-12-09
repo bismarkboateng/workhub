@@ -1,5 +1,5 @@
 
-import { Footer, Navbar, Button } from "../components"
+import { Footer, Navbar, Button, Vision } from "../components"
 
 export default function About() {
   return (
@@ -43,7 +43,7 @@ export default function About() {
             className="w-[100%] h-[100%] rounded object-cover"
           />
         </div>
-        <div className="w-[50vw] md:w-[50vw] lg:h-[30vw]">
+        <div className="w-[50vw] md:w-[50vw] 2xl:h-[30vw]">
           <img
             src="https://assets-global.website-files.com/64ec80c5a379b568b72122d6/64ef16a10be439b5abe526d2_About%20Hero%203.jpg"
             alt="image02"
@@ -83,7 +83,7 @@ export default function About() {
           </div>
         </section>
       </section>
-
+      <Vision />
     </section>
   )
 }
