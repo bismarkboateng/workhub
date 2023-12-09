@@ -1,5 +1,8 @@
 
-import { Footer, Navbar, Button, Vision } from "../components"
+import { 
+  Footer, Navbar, Button,
+  Vision, Quality,
+} from "../components"
 
 export default function About() {
   return (
@@ -84,6 +87,28 @@ export default function About() {
         </section>
       </section>
       <Vision />
+      <Quality />
+
+      <section className="w-[90%] md:w-[95%] 2xl:w-[64%] mx-auto mt-20
+      bg-[#242839] py-[100px] md:py-[70px] lg:py-[80px] px-[24px] rounded-md flex flex-col items-center
+      justify-center lg:mb-44">
+
+        <h2 className="text-[31px] md:text-[35px] lg:text-[39px] md:mt-8 text-text-color-2 font-Outfit font-semibold
+        leading-[40.3px] text-center lg:w-[50%]">
+          Join the WorkHub Family: Embrace the Future of Work
+        </h2>
+        <p className="w-[85%] mt-5 mb-8 text-[#d6d8e9] font-Outfit text-base 
+          md:text-lg leading-6 text-center">
+          Request a quote or schedule a tour today!
+        </p>
+        <Button
+          className="text-base md:text-lg text-text-color-2 font-Outfit py-[15px] px-[20px]
+          text-center rounded cursor-pointer"
+        >
+          Enquire Now
+        </Button>
+      </section>
+      <Footer />
     </section>
   )
 }
