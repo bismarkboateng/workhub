@@ -7,7 +7,7 @@ export default function Services(props) {
 		<>
 			<main className='bg-body-background'>
 				<Navbar />
-				<section className='lg:p-20 p-5'>
+				<section className='w-[90%] md:w-[95%] 2xl:w-[64%] mx-auto mb-20 mt-10'>
 					<div className='bg-[#F0F2FB] flex flex-col lg:p-10 p-5 py-10 gap-y-10'>
 						<div className='flex flex-col items-center justify-center gap-y-5'>
 							<h1 className='font-bold lg:text-5xl text-4xl font-Outfit text-[#242839] text-center md:w-3/4 lg:w-1/2'>
@@ -27,8 +27,9 @@ export default function Services(props) {
 						</div>
 					</div>
 				</section>
-				<section className='lg:p-20 p-5' data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
-					<div className='flex flex-row flex-wrap gap-y-5 lg:gap-y-0'>
+				<section className='w-[90%] md:w-[95%] 2xl:w-[64%] mx-auto' 
+					data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
+					<div className='w-[100%] flex flex-row flex-wrap'>
 						<ServiceFeature 
 							image={Coworking} 
 							title="Coworking Space" 

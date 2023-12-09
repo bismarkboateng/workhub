@@ -33,7 +33,7 @@ export default function Locations() {
         </Button>
         <Button
           className="font-Outfit text-base md:text-lg text-[#53587a] md:w-[30%] border border-[#53587a]
-          lg:w-[23%] 2xl:w-[18%] bg-[#f0f2fb] outline-none py-[15px] rounded cursor-pointer"
+          lg:w-[23%] 2xl:w-[18%]  bg-transparent outline-none py-[15px] rounded cursor-pointer"
         >
           View Locations
         </Button>

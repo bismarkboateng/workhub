@@ -26,7 +26,7 @@ export default function index(props) {
                 </Link>
             </li>
             <li className={linkStyles}>
-                <Link href="about">
+                <Link href="/about">
                     <span>About</span>
                 </Link>
             </li>
